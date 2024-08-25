@@ -19,9 +19,7 @@ const ConvexClientProvider = ({ children }: Props) => {
                 <AuthLoading>
                     <LoadingLogo />
                 </AuthLoading>
-                <Authenticated>
-                    {children}
-                </Authenticated>
+                {children}
             </ConvexProviderWithClerk>
         </ClerkProvider>
     )
