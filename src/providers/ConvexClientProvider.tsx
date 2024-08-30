@@ -2,8 +2,9 @@
 
 import LoadingLogo from '@/components/LoadingLogo'
 import { ClerkProvider, useAuth } from '@clerk/nextjs'
-import { Authenticated, AuthLoading, ConvexReactClient } from 'convex/react'
+import { AuthLoading, ConvexReactClient } from 'convex/react'
 import { ConvexProviderWithClerk } from 'convex/react-clerk'
+import { dark } from '@clerk/themes'
 import React from 'react'
 
 type Props = React.PropsWithChildren<{}>
@@ -14,7 +15,11 @@ const convex = new ConvexReactClient(CONVEX_URL)
 
 const ConvexClientProvider = ({ children }: Props) => {
     return (
-        <ClerkProvider>
+        <ClerkProvider
+            appearance={{
+                baseTheme: dark
+            }}
+        >
             <ConvexProviderWithClerk client={convex} useAuth={useAuth}>
                 <AuthLoading>
                     <LoadingLogo />
