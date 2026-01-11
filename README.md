@@ -71,12 +71,6 @@ ChatAppNextJs/
 - Message read receipts
 - Online/offline user status
 
-## Contributing
-Fork the repository, create a feature branch, commit your changes, push to the branch, and open a pull request.
-
-## License
-MIT License
-
 ## Contact
 Atharv  
 GitHub: https://github.com/atharv0811
