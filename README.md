@@ -159,4 +159,4 @@ Built with ❤️ by [atharv0811](https://github.com/atharv0811)
 
 ## Live Demo
 
-Not deployed yet. Recommended deployment platform: Vercel.
+Vercel - https://chat-app-next-js-topaz.vercel.app/
