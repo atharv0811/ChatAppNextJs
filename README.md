@@ -160,30 +160,3 @@ Built with ❤️ by [atharv0811](https://github.com/atharv0811)
 ## Live Demo
 
 Not deployed yet. Recommended deployment platform: Vercel.
-
-## Project Structure
-
-```
-ChatAppNextJs/
-├── app/
-├── components/
-├── public/
-├── styles/
-├── package.json
-├── next.config.js
-└── README.md
-```
-
-## Future Enhancements
-
-- User authentication
-- One-to-one and group chats
-- WebSocket-based messaging
-- Media and file sharing
-- Message read receipts
-- Online/offline user status
-
-## Contact
-
-Atharv  
-GitHub: https://github.com/atharv0811
